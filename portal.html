@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+
+    <!-- 1. CSS Reset (Eric Meyer) -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- 2. CSS Externo principal -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- 3. CSS Interno (exigido na atividade) -->
+    <style>
+        .destaque-especial {
+            font-style: italic;
+            color: #8e44ad;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- 4. CSS Inline aplicado diretamente na tag (exigido na atividade) -->
+        <h1 style="color: #2c3e50; font-size: 2.2rem; font-weight: bold;">
+            Meu Portal de Entretenimento Digital
+        </h1>
+        <p class="destaque-especial">Seu espaço para descobrir tudo sobre cultura pop, sons e tecnologia!</p>
+    </header>
+
+    <!-- Container Flexbox com as três seções -->
+    <main class="container-principal">
+
+        <!-- Seção 1: Filmes e Séries -->
+        <section id="secao-filmes" class="secao-conteudo">
+            <h2 class="titulo-secao">Filmes e Séries</h2>
+            <p class="texto-explicativo">Explore produções cinematográficas marcantes, lançamentos de streaming e análises das séries mais comentadas do momento.</p>
+            
+            <!-- Duas a três imagens ilustrativas por seção -->
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/1069/300/200" alt="Seta de cinema e claquete">
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/119/300/200" alt="Paisagem urbana inspirando produções">
+        </section>
+
+        <!-- Seção 2: Música e Podcasts -->
+        <section id="secao-musica" class="secao-conteudo">
+            <h2 class="titulo-secao">Música e Podcasts</h2>
+            <p class="texto-explicativo">Fique por dentro dos álbuns mais ouvidos, entrevistas exclusivas e os melhores podcasts de conversas e tecnologia.</p>
+            
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/145/300/200" alt="Fones de ouvido modernos">
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/1062/300/200" alt="Microfone de estúdio">
+        </section>
+
+        <!-- Seção 3: Games e Tecnologia -->
+        <section id="secao-games" class="secao-conteudo">
+            <h2 class="titulo-secao">Games e Tecnologia</h2>
+            <p class="texto-explicativo">As principais novidades do mundo dos jogos eletrônicos, hardwares potentes e inovações que estão mudando o futuro.</p>
+            
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/0/300/200" alt="Notebook e ambiente de tecnologia">
+            <img class="imagem-ilustrativa" src="https://picsum.photos/id/3/300/200" alt="Teclado gamer iluminado">
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* ==========================================
+   ESTILOS GLOBAIS DO PORTAL
+   ========================================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho principal */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ==========================================
+   LAYOUT COM FLEXBOX (Requisito da Atividade)
+   ========================================== */
+.container-principal {
+    display: flex;               /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaça as colunas igualmente */
+    gap: 20px;                   /* Espaço entre as seções */
+    flex-wrap: wrap;             /* Permite que quebrem linha em telas menores */
+}
+
+/* Estilização padronizada para as três seções */
+.secao-conteudo {
+    flex: 1;                     /* Faz com que dividam o espaço de forma igual */
+    min-width: 280px;            /* Largura mínima para responsividade */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;          /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+/* ==========================================
+   CLASSES E IDs (Requisito da Atividade)
+   ========================================== */
+
+/* ID específico para a seção de Filmes */
+#secao-filmes {
+    border-top: 5px solid #e74c3c;
+}
+
+/* ID específico para a seção de Música */
+#secao-musica {
+    border-top: 5px solid #3498db;
+}
+
+/* ID específico para a seção de Games */
+#secao-games {
+    border-top: 5px solid #2ecc71;
+}
+
+/* Padronização dos títulos H2 usando classe */
+.titulo-secao {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+/* Padronização dos textos explicativos */
+.texto-explicativo {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Classe para padronizar as imagens ilustrativas */
+.imagem-ilustrativa {
+    width: 100%;                 /* Ocupa a largura da caixa */
+    height: 140px;
+    object-fit: cover;           /* Ajusta a imagem sem distorcer */
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
