@@ -1,10 +1,6 @@
 # App
 # Meu Portfólio Pessoal
 
-**Nome do aluno:** [Seu Nome Completo]  
-**Descrição do portfólio:** Este é um site simples criado para a atividade de desenvolvimento web, mostrando minhas informações pessoais, projetos e um vídeo embutido.  
-**Link do site publicado:** [https://seu-usuario.github.io/nome-do-repositorio/](https://seu-usuario.github.io/nome-do-repositorio/)  
-
 ## Tecnologias utilizadas
 * HTML5
 * CSS3
